@@ -1,0 +1,9 @@
+# Git will ignore any files and folders specified here (wow)
+# by putting "!" at the beginning of the line, we re-include it.
+
+# config directory, so people can use whatever settings, plugins, and themes they want without affecting the vault
+.obsidian
+
+# but we do want some plugins to be synced because they are universally useful (to us)
+# like the git plugin, to hopefully make the process more intuitive and less confusing.
+!.obsidian/obsidian-git
