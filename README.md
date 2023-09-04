@@ -1,5 +1,7 @@
 ---
 share: true
+aliases:
+  - Gaylor
 ---
 
 # Welcome to the Gaylor Vault!
