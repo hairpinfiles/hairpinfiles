@@ -51,7 +51,7 @@ Assuming you read at least the basics of the [[#Help Vault]], you should be able
 		- [Sortable](https://github.com/alexandru-dinu/obsidian-sortable): Makes tables sortable like Wikipedia! There's no reason not to use this one.
 	- [Footnote Shortcut](https://github.com/MichaBrugger/obsidian-footnotes) + [Better Footnotes](https://github.com/aidenlx/better-fn): Improves the footnote experience
 	- [Folder Focus Mode](https://github.com/grochowski/obsidian-folder-focus-mode) + [Zoom](https://github.com/vslinko/obsidian-zoom): Better focus on whatever you're working on
-	- [Folder Note Count](https://github.com/ozntel/file-explorer-note-count): Not really any functional purpose, I just like having it
+	- [File Explorer Note Count](https://github.com/ozntel/file-explorer-note-count): Not really any functional purpose, I just like having it
 	- [Reading Time](https://github.com/avr/obsidian-reading-time): Keeping an eye on the reading time for notes that other people are meant to read is always a good idea 😉
 	- [Link Favicon](https://github.com/joethei/obsidian-link-favicon): Icons for links. You might need to reload after enabling it.
 	- [Surfing](https://github.com/PKM-er/Obsidian-Surfing): Browse websites from inside Obsidian, very helpful when doing research
