@@ -34,7 +34,7 @@ If you've never used Obsidian before (or even markdown?) then I would highly rec
 ## Tips for a better experience
 ### 1. Stay in Reading Mode as much as possible
 Assuming you read at least the basics of the [[#Help Vault]], you should be able to switch between the Reading, Editing, and Live Preview modes. While Live Preview is convenient to edit with at times, I would not suggest using it as your default mode. Try to make a *deliberate* choice to edit something, preferably after letting us know you were gonna do it. It's too easy to accidentally change something with Live Preview, and though you can [[Using Git#Discard changes|discard those changes]] later, it's still annoying and can easily slip through if you're not careful. If they do, it's not the end of the world - just means a bit of extra work later.
->[!info] If you often forget that you're in Live Preview like I do, turning on line numbers can help. Go to settings > Editor > Display > Show line number.
+>[!tip] If you often forget that you're in Live Preview like I do, turning on line numbers can help. Go to settings > Editor > Display > Show line number.
 
 ### 2. Be conservative about plugins
 - Plugins attached to the Vault:
@@ -55,3 +55,4 @@ Assuming you read at least the basics of the [[#Help Vault]], you should be able
 	- [Reading Time](https://github.com/avr/obsidian-reading-time): Keeping an eye on the reading time for notes that other people are meant to read is always a good idea 😉
 	- [Link Favicon](https://github.com/joethei/obsidian-link-favicon): Icons for links. You might need to reload after enabling it.
 	- [Surfing](https://github.com/PKM-er/Obsidian-Surfing): Browse websites from inside Obsidian, very helpful when doing research
+>[!tip] Try out some themes! Some of them are really cool. I personally use the "Dracula Gemini" theme.
