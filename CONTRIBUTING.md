@@ -18,7 +18,7 @@ On the start-up screen, click "create" and follow the instructions to set a name
 	- On mobile, you have to open the sidebar (button at the top left), then the cog button that appears.
 2. Find the tab called "community plugins"
 3. It'll give you a screen about security - you can read it, it gives a nice little overview. I personally have never experienced any security issues and have not heard about any from the community, so I'm not worried about it. 
->[!note] If you are and you're on desktop, you can disregard most of this and set up git outside of Obsidian (with using the command line or another third-party app such as GitHub Desktop). It's definitely possible on Android but I have not tried it, and my past attempts with iOS have been unsuccessful. If you do end up doing it on mobile, let me know, I'm curious.
+>[!note] If you are concerned and you're on desktop, you can disregard most of this and set up Git outside of Obsidian (using the command line or another third-party app such as GitHub Desktop). It's definitely possible on Android but I have not tried it, and my past attempts with iOS have been unsuccessful. If you do end up doing it on mobile, let me know, I'm curious.
 4. After turning on plugins, click "browse" and search for "git", it should be the first result. Install, enable it, and exit out of the modals.
 
 ### 3. Clone the repository
