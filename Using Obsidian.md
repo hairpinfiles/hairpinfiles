@@ -54,3 +54,4 @@ Assuming you read at least the basics of the [[#Help Vault]], you should be able
 	- [Folder Note Count](https://github.com/ozntel/file-explorer-note-count): Not really any functional purpose, I just like having it
 	- [Reading Time](https://github.com/avr/obsidian-reading-time): Keeping an eye on the reading time for notes that other people are meant to read is always a good idea 😉
 	- [Link Favicon](https://github.com/joethei/obsidian-link-favicon): Icons for links. You might need to reload after enabling it.
+	- [Surfing](https://github.com/PKM-er/Obsidian-Surfing): Browse websites from inside Obsidian, very helpful when doing research
