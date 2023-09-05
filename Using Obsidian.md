@@ -14,7 +14,7 @@ On the start-up screen, click "create" and follow the instructions to set a name
 	- On mobile, you have to open the sidebar (button at the top left, or swipe right), then the cog button that appears.
 2. Find the tab called "community plugins"
 3. It'll give you a screen about security - you can read it, it gives a nice little overview. I personally have never experienced any security issues and have not heard about any from the community, so I'm not worried about it. 
->[!note] If you are concerned and you're on desktop, you can disregard most of this and set up Git outside of Obsidian (using the command line or another third-party app such as GitHub Desktop). It's definitely possible on Android but I have not tried it, and my past attempts with iOS have been unsuccessful. If you do end up doing it on mobile, let me know, I'm curious.
+>[!note] If you are concerned and you're on desktop, you can disregard most of this and set up Git outside of Obsidian (using the command line or another third-party app such as GitHub Desktop). It's definitely possible on Android but I have not tried it, and my past attempts with iOS have been unsuccessful. If you do end up doing it on mobile, let me know, I'm curious. ^e75c2b
 4. After turning on plugins, click "browse" and search for "git", it should be the first result. Install, enable it, and exit out of the modals.
 
 ### 3. Clone the repository
@@ -33,5 +33,24 @@ If you've never used Obsidian before (or even markdown?) then I would highly rec
 
 ## Tips for a better experience
 ### 1. Stay in Reading Mode as much as possible
-Assuming you read at least the basics of the [[#Help Vault]], you should be able to switch between the Reading, Editing, and Live Preview modes. While Live Preview is convenient to edit with at times, I would not suggest using it as your default mode. It's easy to accidentally change something with Live Preview, and though you can [[Using Git#Discard changes|discard those changes]] later, it's still annoying and can easily slip through if you're not careful. If they do, it's not the end of the world - just means a bit of extra work later.
+Assuming you read at least the basics of the [[#Help Vault]], you should be able to switch between the Reading, Editing, and Live Preview modes. While Live Preview is convenient to edit with at times, I would not suggest using it as your default mode. Try to make a *deliberate* choice to edit something, preferably after letting us know you were gonna do it. It's too easy to accidentally change something with Live Preview, and though you can [[Using Git#Discard changes|discard those changes]] later, it's still annoying and can easily slip through if you're not careful. If they do, it's not the end of the world - just means a bit of extra work later.
 >[!info] If you often forget that you're in Live Preview like I do, turning on line numbers can help. Go to settings > Editor > Display > Show line number.
+
+### 2. Be conservative about plugins
+- Plugins attached to the Vault:
+	- Obsidian Git: For Git sync purposes. Features are explored and explained in [[Using Git]].
+- Aside from the [[#^e75c2b|(small) security risk]], plugins have the potential to affect the vault a lot. Try to avoid any that alter notes other than the one you have open, or if they have that option, disable/don't use it. 
+	- An example of this is the Linter plugin. It's pretty good at making sure notes adhere to a consistent style, and it has support for custom regex rules. But it also has commands for linting entire folders or even the whole vault. Using Linter is fine - I do, and I might add it to the Vault at some point to help keep it consistent. But absolutely do not, under any circumstances, use the mass-linting commands. If we ever do, it will be done properly and because there are a lot of files out of line with the style guidelines.
+- Don't use any plugins that require special syntax that doesn't do anything when you don't have it installed
+	- [Dataview](https://github.com/blacksmithgu/obsidian-dataview): I may end up adding it at some point as it has some very useful query functionality (obviously), and [GitHub Publisher](https://github.com/ObsidianPublisher/obsidian-GitHub-publisher) apparently supports "baking" Dataview queries to markdown, so it would be visible on the site. They would become the most continually updated notes, but I think it would probably work out better than manually making those same lists - this way it wouldn't actually change in the source, only the display.
+	- [Templater](https://github.com/SilentVoid13/Templater): Would be quite useful when we start adding content that's not just info and how-to pages, but anything with Templater syntax on it would not get published (aka no using dynamic commands on regular pages). That's perfectly fine, since templates themselves have no place on the site anyway.
+- Plugins that add convenient little quality-of-life things that don't affect other people's experiences: 🤌
+	- [Homepage](https://github.com/mirnovov/obsidian-homepage): Set it to [[README]] to get an experience more like the site! Or "random note" if you're feeling adventurous.
+	- [cMenu](https://github.com/chetachiezikeuzor/cMenu-Plugin) or [Editing Toolbar](https://github.com/PKM-er/obsidian-editing-toolbar): Might be useful for people who like formatting their text and are more used to having buttons to click. I think it also has like a "focus" mode? Or maybe it's just generally minimalistic.
+	- [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian) and/or [Table Editor](https://github.com/ganesshkumar/obsidian-table-editor): a lifesaver when working with markdown tables, especially if you're new to markdown or it's a particularly big one (speaking from experience 🫡)
+		- [Sortable](https://github.com/alexandru-dinu/obsidian-sortable): Makes tables sortable like Wikipedia! There's no reason not to use this one.
+	- [Footnote Shortcut](https://github.com/MichaBrugger/obsidian-footnotes) + [Better Footnotes](https://github.com/aidenlx/better-fn): Improves the footnote experience
+	- [Folder Focus Mode](https://github.com/grochowski/obsidian-folder-focus-mode) + [Zoom](https://github.com/vslinko/obsidian-zoom): Better focus on whatever you're working on
+	- [Folder Note Count](https://github.com/ozntel/file-explorer-note-count): Not really any functional purpose, I just like having it
+	- [Reading Time](https://github.com/avr/obsidian-reading-time): Keeping an eye on the reading time for notes that other people are meant to read is always a good idea 😉
+	- [Link Favicon](https://github.com/joethei/obsidian-link-favicon): Icons for links. You might need to reload after enabling it.
