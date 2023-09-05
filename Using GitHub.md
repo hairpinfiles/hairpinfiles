@@ -6,7 +6,8 @@ You'll need an account, of course. I assume you can find the button that says "S
 Anyway - there's probably something you're looking for here. If you're new and don't know what you're doing, try [[#Issues]].
 
 ## Issues
-Issues are sort of like a big bin of tasks for the whole vault. They represent **things to be done.** Take for example, [#2](https://github.com/dykeaura/issues/2) (the one I'm working on right now!) 
+Look at the issues page [here](https://github.com/dykeaura/gaylor-vault/issues).
+Issues are sort of like a big bin of tasks for the whole vault. They represent **things to be done.** Take for example, [#2](https://github.com/dykeaura/gaylor-vault/issues/2) (the one I'm working on right now!) 
 - It's called "Write a contribution guide" 
 - It's assigned to *dykeaura* (me)
 - it has the [[#Labels]] "addition" and "meta"
