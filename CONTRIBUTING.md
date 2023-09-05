@@ -22,11 +22,11 @@ On the start-up screen, click "create" and follow the instructions to set a name
 4. After turning on plugins, click "browse" and search for "git", it should be the first result. Install, enable it, and exit out of the modals.
 
 ### 3. Clone the repository
-6. Press CTRL/CMD+P (on mobile, swipe down) to bring up the *command palette*. This is very useful, as it contains every command in Obsidian (and there's a lot!). Search for "clone" and click or press Enter on the result with "Obsidian Git:" at the beginning.
-7. It asks for the remote url of the repository. Type or paste in the url "https://github.com/dykeaura/gaylor-vault.git", then make sure you click the result that's auto-filling as you type, Enter just exits the modal here for some reason.
-8. It asks where you want to clone it to. Type and click "/" or click "vault root".
-9. It asks if the repo has a ".obsidian" directory. This is the config folder, and currently it just has the git plugin in it (the one you're interacting with right now). Click "YES".
-10. Now it asks you to confirm this is what you're trying to do - by overwriting the config directory, it's deleting itself (even though there's another copy in there). This is fine, we only had to install the plugin in the first place to get to this point. Click "DELETE ALL YOUR LOCAL CONFIG AND PLUGINS".
-11. It asks for the "depth" of the clone. I don't actually know what this means, but just click the empty option that's there.
-12. It starts working. Just wait until it gives you a notice to restart Obsidian, then do so.
-13. Congratulations! You now have a local copy of the Gaylor Vault, with Git sync in place. Go forth and gaylor.
+1. Press CTRL/CMD+P (on mobile, swipe down) to bring up the *command palette*. This is very useful, as it contains every command in Obsidian (and there's a lot!). Search for "clone" and click or press Enter on the result with "Obsidian Git:" at the beginning.
+2. It asks for the remote url of the repository. Type or paste in the url "https://github.com/dykeaura/gaylor-vault.git", then make sure you click the result that's auto-filling as you type, Enter just exits the modal here for some reason.
+3. It asks where you want to clone it to. Type and click "/" or click "vault root".
+4. It asks if the repo has a ".obsidian" directory. This is the config folder, and currently it just has the git plugin in it (the one you're interacting with right now). Click "YES".
+5. Now it asks you to confirm this is what you're trying to do - by overwriting the config directory, it's deleting itself (even though there's another copy in there). This is fine, we only had to install the plugin in the first place to get to this point. Click "DELETE ALL YOUR LOCAL CONFIG AND PLUGINS".
+6. It asks for the "depth" of the clone. I don't actually know what this means, but just click the empty option that's there.
+7. It starts working. Just wait until it gives you a notice to restart Obsidian, then do so.
+8. Congratulations! You now have a local copy of the Gaylor Vault, with Git sync in place. Go forth and gaylor.
