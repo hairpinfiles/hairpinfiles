@@ -31,3 +31,7 @@ On the start-up screen, click "create" and follow the instructions to set a name
 ## Help Vault
 If you've never used Obsidian before (or even markdown?) then I would highly recommend browsing through the Help Vault. You can find it by the little question mark button right under the settings (on desktop), or there's a published version [here.](https://help.obsidian.md/Home)
 
+## Tips for a better experience
+### 1. Stay in Reading Mode as much as possible
+Assuming you read at least the basics of the [[#Help Vault]], you should be able to switch between the Reading, Editing, and Live Preview modes. While Live Preview is convenient to edit with at times, I would not suggest using it as your default mode. It's easy to accidentally change something with Live Preview, and though you can [[Using Git#Discard changes|discard those changes]] later, it's still annoying and can easily slip through if you're not careful. If they do, it's not the end of the world - just means a bit of extra work later.
+>[!info] If you often forget that you're in Live Preview like I do, turning on line numbers can help. Go to settings > Editor > Display > Show line number.
