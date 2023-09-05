@@ -27,4 +27,7 @@ On the start-up screen, click "create" and follow the instructions to set a name
 7. It starts working. Just wait until it gives you a notice to restart Obsidian, then do so.
 8. Congratulations! You now have a local copy of the Gaylor Vault, with Git sync in place. Go forth and gaylor.
 
+
+## Help Vault
 If you've never used Obsidian before (or even markdown?) then I would highly recommend browsing through the Help Vault. You can find it by the little question mark button right under the settings (on desktop), or there's a published version [here](https://help.obsidian.md/Home).
+
