@@ -18,3 +18,16 @@ When we're done with an issue (which usually means we finished the task, or deci
 
 ### Labels
 Labels are sort of like categories for the issues. If there's a lot of them (large projects often have thousands open at a time!), it can be difficult to parse through them all just by title and description alone. So labels mainly provide a filtering utility, as well as give us some other information about the issue before we click on it, sort of like seeing tags on an article. All labels have descriptions that should appear when you hover over them, or you could view all of them and their descriptions [here](https://github.com/dykeaura/gaylor-vault/labels).
+
+## Forks
+A fork is essentially a copy of a repository on a different account or organization. It's very useful to be able to work on something independently without affecting the original project until you want it to. There are two main reasons to fork something, and the only real difference is whether you want to [[Using Git#Merging|Merge]] back into the original or not. You might want to create your own version of something separate from the original, or you might want to contribute to the original. Your case with the Vault is probably the latter.
+### Create a Fork
+On the [main repository page,](https://github.com/dykeaura/gaylor-vault)  find and click the button that says "fork" as shown below. It should be somewhere in the top right.
+![[watch-fork-star-github.png]]
+You can then optionally change the name and/or description of the project - I recommend not changing the name if you're wanting to contribute, it helps make it clear that's what you're trying to do. I would also keep the "copy the master branch only" checkbox checked, any others are typically not relevant to you. 
+
+It's good practice to create a new [[Using Git#Branches|Branch]] on your fork with a descriptive name or your contribution. If there's already an [[#Issues|Issue]] about your contribution, you can create it from there. It will be linked and shown to anyone viewing the issue. Supposedly it also gets automatically closed when the associated [[Pull Requests|Pull Request]] gets merged, but in my experience it doesn't pick up the pull request properly for some reason, so I manually link it with "closes #{ID}" at the bottom.
+
+When you're done working on your contribution, find the "contribute" dropdown button like shown below:
+![[contribute-sync-fork-github.png]]
+Click on it and then the "open pull request" button that pops up. See [[#Pull Requests]] for tips on working with those.
