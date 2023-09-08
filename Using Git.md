@@ -101,5 +101,5 @@ And here is another line that is cleanly resolved or unmodified.
  6. `>>>>>>> theirs:sample.txt`: End of the "theirs" block (and the conflict)
 
 #### Solving a merge conflict
-To solve a merge conflict, you have to let Git know which side(s) you're taking, then tell it when you're done. You this by going to each instance of a *conflict* (see above) and picking which one (or both/neither?) you want to keep. Then you remove all the fences and version you don't want. When you've gone through all the conflicts, commit, and if it goes through, you're done!
+To solve a merge conflict, you have to let Git know which side(s) you're taking, then tell it when you're done. You do this by going to each instance of a *conflict* (see above) and picking which one (or both/neither?) you want to keep. Then you remove all the fences and version you don't want. When you've gone through all the conflicts, commit, and if it goes through, you're done!
 >[!tip] Some third-party Git applications (such as GittyUp, as mentioned earlier) have merge conflict resolution wizards, which offer you all the options, you pick which ones you want, and it does all the behind-the-scenes stuff for you.
