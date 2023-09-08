@@ -30,7 +30,7 @@ On the [main repository page,](https://github.com/gaylor-wiki/gaylor-vault)  fin
 ![[watch-fork-star-github.png]]
 You can then optionally change the name and/or description of the project - I recommend not changing the name if you're wanting to contribute, it helps make it clear that's what you're trying to do. I would also keep the "copy the master branch only" checkbox checked, any others are typically not relevant to you. 
 
-It's good practice to create a new [[Using Git#Branches|Branch]] on your fork with a descriptive name for your contribution. If there's already an [[#Issues|Issue]] about your contribution, you can create it from there. It will be linked and shown to anyone viewing the issue. Supposedly it also gets automatically closed when the associated [[#Pull Requests|Pull Request]] gets merged, but in my experience it doesn't pick up the pull request properly for some reason, so I manually link it with "closes #{ID}" at the bottom.
+It's good practice to create a new [[Using Git#Branches|Branch]] on your fork with a descriptive name for your contribution. If there's already an [[#Issues|Issue]] about your contribution, you can create it from there. It will be linked and shown to anyone viewing the issue. Supposedly it also gets automatically closed when the associated [[#Pull Requests|Pull Request]] gets merged, but in my experience it doesn't pick up the pull request properly for some reason, so I manually link it with "closes #{ID}" at the bottom. (which also helps make it clear to other people)
 
 When you're done working on your contribution, find the "contribute" dropdown button like shown below: (make sure you're on the right branch)
 ![[contribute-sync-fork-github.png]]
