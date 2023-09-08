@@ -25,10 +25,17 @@ When you create a commit, you'll supply a message to describe the changes in it.
 - If you mention an [[Using GitHub#Issues|Issue]], GitHub will pick up on it and it will be linked. That's not super helpful, but if you preface it with any of the words "close", "closes", "closed", "fixes", or "fixed", the issue will be closed automatically when the commit is eventually [[#Merging|Merged]] in to `master` (the main [[#Branches|Branch]]).
 - Use *imperative mood*, like "fix typo", or "add page about Big Sur". Admittedly, I haven't been very good about doing this, but it's convention and aligns with what Git uses for [[#Merging]] and reverts (if you're curious about that, look it up yourself and get comfortable with it somewhere else please).
 	- You're also supposed to keep the title as one statement and not end with punctuation. (pretty sure I've already broken the first rule, oops)
-- I don't really care about the first letter being capitalized, but try to keep the rest of the message as readable as possible. Avoid abbreviations and acronyms unless everyone probably knows what they mean.
+- I don't really care about the first letter being capitalized, but try to keep the rest of the message as readable as possible. Avoid obscure abbreviations and acronyms.
+
+### Staging
+Below the commit message box, there are 2 sections: staged changes and (unstaged) changes. To stage a change, click the plus to the right of the file name, or unstage it by clicking the minus. Staging a change means to *include it in the next commit*. If you go a long time without committing (which I wouldn't recommend), you may end up with a lot of changes here, and you can split them up by staging only some before committing, then doing the others after (or continuing to edit). Git actually allows staging each line individually, but I'm not sure how to do that with this plugin, or if you even can.
+
+### Discarding changes
+If you click the backwards arrow button next to the "stage" button, you can *discard* all changes to a file and reset it back to the last commit . Useful for reverting changes you didn't mean to make, especially if you don't know or remember what it was like before. Of course, this can be quite destructive, so be careful.
 
 ## Remotes
 A remote is a reference to another Git repository somewhere, usually an online Git provider like GitHub, GitLab, or Bitbucket. When you [[#Cloning|cloned]] the Vault, it automatically added the url of our GitHub repository as a remote called "origin", which is convention for the main remote.
+>[!note] The url always needs to have ".git" at the end. To get the proper https url of a GitHub project just use `https://github.com/{user or organization}/{repository name}.git`.
 
 ## Push and Pull
 Pushing and pulling are the actions of sending and receiving new [[#Commits]] from the [[#Remotes|Remote]]. The 
