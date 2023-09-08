@@ -1,3 +1,7 @@
+---
+share: true
+---
+
 # Using Obsidian
 ## Quick Start Guide
 If you just want to start browsing the Vault in Obsidian.
