@@ -1,6 +1,7 @@
 # Using Git
 
-Git can feel a little intimidating to learn, but it's not actually that complicated (I know that's what everyone says and it's not always true but I promise you can handle it).
+Git can feel a little intimidating to learn, but it's not actually that complicated (I know that's what everyone says and it's not always true but I promise you can handle it). 
+>[!note] This page assumes you've followed the [[Using Obsidian#Quick Start Guide|Quick Start Guide]] for Obsidian - it uses the Obsidian Git plugin installed in that guide (and in the Vault in general) to help explain some Git concepts and uses. If you've figured out Git outside of Obsidian, you probably don't need to read this page. 😉
 
 ## Overview
 Git is what's known as a *version control system* (VCS), a program for tracking and managing changes to files. If you've used the versioning tools from Dropbox or Google Drive, congratulations! You already have experience with a rudimentary form of a VCS. Git, though, was made for teams of developers with a lot of changes happening at once - that would be pretty difficult to manage with a more straightforward tool.
