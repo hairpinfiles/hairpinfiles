@@ -54,6 +54,7 @@ I think the best way to explain branches is with a diagram. This one is focused 
 
 ## Merging
 Merges are probably the most complicated and intimidating thing about Git. Not without good reason - [[#Branches]] are one of the main parts of Git that level it up above others. Think about how complicated it would be, trying to organize work with a bunch of other people all in one stream? It would be chaos. Well, branches are no good if they always stay separate!
+>[!info] The Obsidian Git plugin doesn't seem to have functionality to handle merges. Most will likely be dealt with on GitHub any via [[Using GitHub#Pull Requests|Pull Requests]], but it would still be nice to have *something*. This means that if you need to handle merges locally, you'll need an outside program to help you. Technically, you could just use the command-line and a text editor (Obsidian would be fine for that, I guess, as long as you do it in source mode - the [[#Merge Conflicts|Merge Conflict]] syntax would probably mess with the parsing), but I don't imagine you would find that particularly intuitive. I personally use [GittyUp](https://github.com/Murmele/Gittyup), which is available on Linux, Windows, and Mac. God help you if you need to merge anything on mobile, especially iOS. 🙏
 
 ### Types of merges
 There are 4 main types of merges (at least, the ones we might use). [[#Fast-forward]], [[#Merge Commits]], [[#Squash]], and [[#Rebase]].
@@ -76,3 +77,29 @@ This one I'm still not sure I understand fully, and that's okay because we proba
 >[!warning] If you're the only one who has interacted with the commits you're rebasing (aka the ones that get their history rewritten), then it'll go perfectly fine. But if other people have touched them really at all (looking at them on GitHub doesn't count), then please refrain from doing that.
 
 ### Merge Conflicts
+A merge conflict arises when you're trying to merge something, but the same thing has been changed in both branches. During a merge, the working tree files are updated to reflect the result of the merge. Among the changes made to the common ancestor’s version, non-overlapping ones (that is, you changed an area of the file while the other side left that area intact, or vice versa) are incorporated in the final result verbatim. When both sides made changes to the same area, however, Git cannot randomly pick one side over the other, and asks you to resolve it by leaving what both sides did to that area.
+
+here's how it looks:
+```
+Here are lines that are either unchanged from the common
+ancestor, or cleanly resolved because only one side changed,
+or cleanly resolved because both sides changed the same way.
+<<<<<<< yours:sample.txt
+Conflict resolution is hard;
+let's go shopping.
+=======
+Git makes conflict resolution easy.
+>>>>>>> theirs:sample.txt
+And here is another line that is cleanly resolved or unmodified.
+```
+ Let's pick it apart. 
+ 1. The first 3 lines are just regular, untouched. That just means that only one or neither side modified it at all.
+ 2. `<<<<<<< yours:sample.txt`: Beginning of the block that is "yours", aka the base branch, I believe.
+ 3. 2 lines in the "yours" block
+ 4. `=======`: Divider between the two sides, aka the end of the "yours" block and start of the "theirs" block.
+ 5. 1 line in the "theirs" block
+ 6. `>>>>>>> theirs:sample.txt`: End of the "theirs" block (and the conflict)
+
+#### Solving a merge conflict
+To solve a merge conflict, you have to let Git know which side(s) you're taking, then tell it when you're done. You this by going to each instance of a *conflict* (see above) and picking which one (or both/neither?) you want to keep. Then you remove all the fences and version you don't want. When you've gone through all the conflicts, commit, and if it goes through, you're done!
+>[!tip] Some third-party Git applications (such as GittyUp, as mentioned earlier) have merge conflict resolution wizards, which offer you all the options, you pick which ones you want, and it does all the behind-the-scenes stuff for you.
