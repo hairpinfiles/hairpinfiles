@@ -35,7 +35,7 @@ If you click the backwards arrow button next to the "stage" button, you can *dis
 
 ## Remotes
 A remote is a reference to another Git repository somewhere, usually an online Git provider like GitHub, GitLab, or Bitbucket. When you [[#Cloning|cloned]] the Vault, it automatically added the url of our GitHub repository as a remote called "origin", which is convention for the main remote.
->[!note] The url always needs to have ".git" at the end. To get the proper https url of a GitHub project just use `https://github.com/{user or organization}/{repository name}.git`.
+>[!note] The url always needs to have ".git" at the end. To get the proper https url of a GitHub project just use `https://github.com/{owner}/{repository name}.git`.
 
 ## Push and Pull
 Pushing and pulling are the actions of sending and receiving new [[#Commits]] from the [[#Remotes|Remote]]. The 
