@@ -16,7 +16,7 @@ There's a lot here - don't worry, we'll go through it all slowly. For right now,
 ## Commits
 You think of a commit as a snapshot in time - you can (temporarily) teleport to any one of them and see what a note was like then. Really, it's just a set of diffs, and what you see is the result of all the diffs of the commits in that file's history compiled together. 
 
-You can create a commit by [[#Staging]] changes, entering a [[#Commit Messages|Commit message]], then pressing the commit button. (the checkmark) If you press the circled up arrow ("backup"), it will commit and immediately [[#Push and Pull|Push]].
+You can create a commit by [[#Staging]] changes, entering a [[#Commit Messages|Commit message]], then pressing the commit button. (the checkmark) If you press the circled up arrow ("backup"), it will stage **all** changes, commit, and immediately [[#Push and Pull|Push]].
 
 A commit is identified by its *commit hash* - a long string of letters and numbers, like this one: **d405a2b0cfc05b8dddd7bb47df462c5058da070e**. They're often referred to only by the first eight characters, because the chance of duplicates is extremely low. They also have a *parent commit* (or 2, in the case of [[#Merge|Merge Commits]]), which is the commit that came before it.
 
