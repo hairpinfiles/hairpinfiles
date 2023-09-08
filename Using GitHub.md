@@ -1,3 +1,7 @@
+---
+share: true
+---
+
 # Using GitHub
 GitHub is a place to keep [[Using Git|Git]] repositories - it's usually used for code, really can be useful with any project made up of mainly text files. Good news for us, that describes our Vault perfectly!
 

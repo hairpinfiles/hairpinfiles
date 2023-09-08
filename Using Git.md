@@ -1,3 +1,7 @@
+---
+share: true
+---
+
 # Using Git
 
 Git can feel a little intimidating to learn, but it's not actually that complicated (I know that's what everyone says and it's not always true but I promise you can handle it). 
