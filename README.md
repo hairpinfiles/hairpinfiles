@@ -3,7 +3,6 @@ share: true
 aliases:
   - Gaylor
 ---
-# Welcome to the Gaylor Vault!
 This is a **community-run wiki**, written in [Obsidian](https://obsidian.md)-flavoured markdown and hosted on [GitHub](https://github.com/gaylor-wiki/gaylor-vault). It's also published to [GitHub Pages](https://gaylor-wiki.github.io/gaylor-wiki) using a plugin for Obsidian called [GitHub Publisher](https://github.com/ObsidianPublisher/obsidian-GitHub-publisher).
 
 That may have sounded like a jumble of garbage to you, and I'm sorry. You're probably here because of our, um... *topic of interest*, gaylor.
