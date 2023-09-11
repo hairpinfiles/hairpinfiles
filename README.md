@@ -1,5 +1,5 @@
 ---
-share: true
+title: Welcome to the Gaylor Vault!
 aliases:
   - index
   - Gaylor
