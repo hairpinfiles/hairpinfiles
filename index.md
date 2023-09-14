@@ -1,7 +1,6 @@
 ---
 title: Welcome to the Gaylor Vault!
 aliases:
-  - index
   - Gaylor
 ---
 This is a **community-run wiki**, written in [Obsidian](https://obsidian.md)-flavoured markdown and hosted on [GitHub](https://github.com/gaylor-wiki/gaylor-vault). It's also published to [GitHub Pages](https://gaylor-wiki.github.io/gaylor-wiki) using a plugin for Obsidian called [GitHub Publisher](https://github.com/ObsidianPublisher/obsidian-GitHub-publisher).
