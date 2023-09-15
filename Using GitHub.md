@@ -1,6 +1,3 @@
----
-share: true
----
 GitHub is a place to keep [[Using Git|Git]] repositories - it's usually used for code, really can be useful with any project made up of mainly text files. Good news for us, that describes our Vault perfectly!
 
 You'll need an account, of course. I assume you can find the button that says "Sign Up"? Click it and follow along. I don't mean to be blunt, but if you can't figure out how to create an account, then I'm not sure how to help you. 🤷

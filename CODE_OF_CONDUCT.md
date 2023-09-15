@@ -1,5 +1,5 @@
 ---
-share: true
+title: Code of Conduct
 ---
 TL;DR: Don't be an asshole.
 
