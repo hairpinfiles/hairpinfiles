@@ -3,7 +3,7 @@ title: Welcome to the Gaylor Vault!
 aliases:
   - Gaylor
 ---
-This is a **community-run wiki**, written in [Obsidian](https://obsidian.md)-flavoured markdown and hosted on [GitHub](https://github.com/gaylor-wiki/gaylor-vault). It's also published to [GitHub Pages](https://gaylor-wiki.github.io/gaylor-wiki) using a plugin for Obsidian called [GitHub Publisher](https://github.com/ObsidianPublisher/obsidian-GitHub-publisher).
+This is a **community-run wiki**, written in [Obsidian](https://obsidian.md)-flavoured markdown and hosted on [GitHub](https://github.com/gaylor-wiki/gaylor-vault). It's also published to [GitHub Pages](https://gaylor-wiki.github.io) using a static site generator (SSG) called [Quartz](https://quartz.jzhao.xyz/).
 
 That may have sounded like a jumble of garbage to you, and I'm sorry. You're probably here because of our, um... *topic of interest*, gaylor.
 
