@@ -5,7 +5,7 @@ This is a **community-run wiki**, written in [Obsidian](https://obsidian.md)-fla
 
 That may have sounded like a jumble of garbage to you, and I'm sorry. You're probably here because of our, um... *topic of interest*, [[gaylor|Gaylor]].
 
-Well then, you might be looking for a page about miss [[Taylor Swift]] herself, or perhaps one of the "ships", hmm? [[kaylor|Kaylor]], [[swiftgron|Swiftgron]], [[tayliz|Tayliz]]...
+Well then, you might be looking for a page about miss [[data/people/taylor-swift|Taylor Swift]] herself, or perhaps one of the "ships", hmm? [[kaylor|Kaylor]], [[swiftgron|Swiftgron]], [[tayliz|Tayliz]]...
 
 The wiki aims to be a sort of "one-stop-shop" for all your gaylor needs. Evidence, theories, archives of important moments in gaylor history, etc. In fact, it doesn't even need to be directly linked to gaylor! Anything you think might be relevant to this community is fine as long as it isn't hurting anybody. If somebody disagrees, they can mention it before it gets merged in, there'll be a discussion, and at the end you'll come out (haha) with a conclusion.
 
