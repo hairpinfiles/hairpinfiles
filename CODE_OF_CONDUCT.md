@@ -1,5 +1,6 @@
 ---
 title: Code of Conduct
+description: a guide for interacting with others in the wiki space
 ---
 TL;DR: Don't be an asshole.
 

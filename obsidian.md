@@ -1,5 +1,6 @@
 ---
 title: Obsidian
+description: information about using Obsidian, specifically with the Vault
 ---
 ## Quick Start Guide
 If you just want to start browsing the Vault in Obsidian.

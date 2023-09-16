@@ -1,5 +1,6 @@
 ---
 title: Git
+description: information about working with git, specifically with the Vault & Obsidian
 ---
 Git can feel a little intimidating to learn, but it's not actually that complicated (I know that's what everyone says and it's not always true but I promise you can handle it). 
 >[!note] This page assumes you've followed the [[obsidian#Quick Start Guide|Quick Start Guide]] for Obsidian - it uses the Obsidian Git plugin installed in that guide (and in the Vault in general) to help explain some Git concepts and uses. If you've figured out Git outside of Obsidian, you probably don't need to read this page. 😉
