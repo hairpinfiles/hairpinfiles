@@ -3,13 +3,9 @@ title: Welcome to the Gaylor Vault!
 ---
 This is a **community-run wiki**, written in [Obsidian](https://obsidian.md)-flavoured markdown and hosted on [GitHub](https://github.com/gaylor-wiki/gaylor-vault). It's also published to [GitHub Pages](https://gaylor-wiki.github.io) using a static site generator (SSG) called [Quartz](https://quartz.jzhao.xyz/).
 
-That may have sounded like a jumble of garbage to you, and I'm sorry. You're probably here because of our, um... *topic of interest*, gaylor.
+That may have sounded like a jumble of garbage to you, and I'm sorry. You're probably here because of our, um... *topic of interest*, [[gaylor|Gaylor]].
 
-Well then, you might be looking for a page about miss [[Taylor Swift]] herself, or perhaps one of the "ships", hmm? [[Kaylor]], [[Swiftgron]], [[Tayliz]]...
-
-Is there a chance you don't know what "gaylor" is? In that case, you got here somehow, probably by someone sending you a link. That means they want you to know about it, and they want you to learn it from me. That's kind of intimidating, but here goes....
-
-The origins of the name should help. It's a combination of the words "gay" and "Taylor". Get it yet? Gaylor describes both the theory that Taylor Swift is queer, and also the people who believe it. (aka, the people writing this wiki)
+Well then, you might be looking for a page about miss [[Taylor Swift]] herself, or perhaps one of the "ships", hmm? [[kaylor|Kaylor]], [[swiftgron|Swiftgron]], [[tayliz|Tayliz]]...
 
 The wiki aims to be a sort of "one-stop-shop" for all your gaylor needs. Evidence, theories, archives of important moments in gaylor history, etc. In fact, it doesn't even need to be directly linked to gaylor! Anything you think might be relevant to this community is fine as long as it isn't hurting anybody. If somebody disagrees, they can mention it before it gets merged in, there'll be a discussion, and at the end you'll come out (haha) with a conclusion.
 
