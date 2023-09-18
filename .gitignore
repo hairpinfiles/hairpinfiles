@@ -2,15 +2,18 @@
 # by putting "!" at the beginning of the line, we re-include it.
 
 # config directory, so people can use whatever settings, plugins, and themes they want without affecting the vault
-.obsidian/**
+.obsidian/*
+!.obsidian/plugins
+.obsidian/plugins/*
 
 # but we do want some plugins to be synced because they are universally useful (to us)
 # like the git plugin, to hopefully make the process more intuitive and less confusing.
-!.obsidian/obsidian-git/
+!.obsidian/plugins/obsidian-git/
+# and the prettier plugin, to help keep the Vault consistent.
+!.obsidian/plugins/obsidian-plugin-prettier/
 
 # personal directory, so you can put whatever you want in here and it won't be synced or published
-_personal/**
-
+_personal/*
 # but we want the directory to exist without having to create it, so this file will make sure of that.
 # there's nothing special about it, it doesn't mean or do anything other than give Git a file to track.
 # the name just helps make it clear that's what it's for. :)
