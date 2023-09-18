@@ -4,6 +4,7 @@ description:
 wikipedia-page: 
 wikidata-id: 
 birthday: 
+age: 
 pronouns: 
 parents: 
 siblings:
