@@ -3,10 +3,10 @@
 
 # config directory, so people can use whatever settings, plugins, and themes they want without affecting the vault
 .obsidian/*
+
+# but we do want some plugins to be synced because they are universally useful (to us).
 !.obsidian/plugins
 .obsidian/plugins/*
-
-# but we do want some plugins to be synced because they are universally useful (to us)
 # like the git plugin, to hopefully make the process more intuitive and less confusing.
 !.obsidian/plugins/obsidian-git/
 # and the prettier plugin, to help keep the Vault consistent.
