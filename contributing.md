@@ -33,7 +33,7 @@ If you just cloned it, you won't have to worry about this, but otherwise, make s
 
 ## 5. Make your changes
 
-Here's where you really take the reigns. Keep an eye on [[STYLE_GUIDELINES]], and have fun!
+Here's where you really take the reigns. Keep an eye on the [[style-guidelines|Style Guidelines]], and have fun!
 
 ## 6. Submit a Pull Request
 
