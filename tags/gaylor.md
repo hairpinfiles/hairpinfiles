@@ -1,8 +1,7 @@
 ---
-title: Gaylor
+title: gaylor
 description: the theory that Taylor Swift is queer
 tags:
-  - TODO
 ---
 
 **Gaylor** is a term that refers to the idea of the [[data/people/taylor-swift|Taylor Swift]] being queer, as well as a believer in the theory (plural "gaylors"). The name originates from combining the name "Taylor" and the word "gay", reminiscent of "ship" names. It's the foundation of this wiki, so if you don't believe it or are at least curious, why are you here? (if it's just to be mean, get out)
@@ -15,6 +14,10 @@ The point is, there are a lot of different people here. Basically the only thing
 
 These are all pages about a potential romantic relationship that Taylor has had. Ready to go down a rabbit hole? 😉
 
-- [[kaylor|Kaylor]]
-- [[swiftgron|Swiftgron]]
-- [[tayliz|Tayliz]]
+- [[tags/kaylor|Kaylor]]
+- [[tags/swiftgron|Swiftgron]]
+- [[tags/tayliz|Tayliz]]
+
+## Tag Content
+
+_This tag is for anything generally muse-less but still relevant to Taylor's queerness. If you would still think it's fruity if you had no idea who any of the muses are, it can go here!_
