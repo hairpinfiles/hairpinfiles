@@ -1,0 +1,13 @@
+---
+title: 
+description: 
+tags: 
+wikipedia-page: 
+wikidata-id: 
+full-name: 
+birthday: 
+age: 
+pronouns: 
+parents: 
+siblings:
+---
