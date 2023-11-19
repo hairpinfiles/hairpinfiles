@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Gaylor Vault!
+title: Welcome to the Hairpin Files!
 ---
 
 This is a **community-run wiki**, written in [[obsidian|Obsidian]]-flavoured markdown and hosted on [[github|GitHub]]. It's also published to [GitHub Pages](https://gaylor-wiki.github.io) using a static site generator (SSG) called [Quartz](https://quartz.jzhao.xyz/).
