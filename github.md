@@ -39,7 +39,7 @@ A fork is essentially a copy of a repository on a different account or organizat
 
 On the [main repository page](https://github.com/hairpinfiles/hairpinfiles), find and click the button that says "fork" as shown below. It should be somewhere in the top right.
 
-![[./assets/watch-fork-star-github.png]]
+![](https://i.imgur.com/kONSuAZ.png)
 
 You can then optionally change the name and/or description of the project - I recommend not changing the name if you're wanting to contribute, it helps make it clear that's what you're trying to do. I would also keep the "copy the master branch only" checkbox checked, any others are typically not relevant to you.
 
@@ -47,6 +47,6 @@ It's good practice to create a new [[./git#Branches|Branch]] on your fork with a
 
 When you're done working on your contribution, find the "contribute" dropdown button like shown below: (make sure you're on the right branch)
 
-![[./assets/contribute-sync-fork-github.png]]
+![](https://i.imgur.com/b6LQcCF.png)
 
 Click on it and then the "open pull request" button that pops up. See [[#Pull Requests]] for tips on working with those.
