@@ -1,7 +1,8 @@
 ---
 title: Taylor Swift
 description: an American singer-songwriter
-tags: 
+tags:
+  - person/musician/singer
 wikipedia-page: https://en.wikipedia.org/wiki/Taylor_Swift
 wikidata-id: Q26876
 website: https://taylorswift.com

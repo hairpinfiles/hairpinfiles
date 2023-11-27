@@ -1,7 +1,8 @@
 ---
 title: Karlie Kloss
 description: an American fashion model
-tags: 
+tags:
+  - person/model
 wikipedia-page: https://en.wikipedia.org/wiki/Karlie_Kloss
 wikidata-id: 
 website: https://www.karliekloss.com/

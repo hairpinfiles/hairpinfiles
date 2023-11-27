@@ -1,7 +1,8 @@
 ---
 title: Liz Huett
 description: an American musician and actress
-tags: 
+tags:
+  - person/musician/singer
 wikipedia-page: https://en.wikipedia.org/wiki/Liz_Huett
 wikidata-id: 
 full-name: Elizabeth Huett
