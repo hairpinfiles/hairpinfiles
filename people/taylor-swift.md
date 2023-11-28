@@ -12,10 +12,10 @@ age: 33
 pronouns:
   - she/her
 parents:
-  - "[[data/people/andrea-swift|Andrea Swift]]"
-  - "[[data/people/scott-swift|Scott Swift]]"
+  - "[[people/andrea-swift|Andrea Swift]]"
+  - "[[people/scott-swift|Scott Swift]]"
 siblings:
-  - "[[data/people/austin-swift|Austin Swift]]"
+  - "[[people/austin-swift|Austin Swift]]"
 partner: 
 children:
 ---

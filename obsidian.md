@@ -46,7 +46,7 @@ If you've never used Obsidian before (or even markdown?) then I would highly rec
 
 ### 1. Stay in Reading Mode as much as possible
 
-Assuming you read at least the basics of the [[#Help Vault]], you should be able to switch between the Reading, Editing, and Live Preview modes. While Live Preview is convenient to edit with at times, I would not suggest using it as your default mode. Try to make a _deliberate_ choice to edit something, preferably after letting us know you were gonna do it. It's too easy to accidentally change something with Live Preview, and though you can [[./git#Discard changes|discard those changes]] later, it's still annoying and can easily slip through if you're not careful. If they do, it's not the end of the world - just means a bit of extra work later.
+Assuming you read at least the basics of the [[#Help Vault]], you should be able to switch between the Reading, Editing, and Live Preview modes. While Live Preview is convenient to edit with at times, I would not suggest using it as your default mode. Try to make a _deliberate_ choice to edit something, preferably after letting us know you were gonna do it. It's too easy to accidentally change something with Live Preview, and though you can [[git#Discard changes|discard those changes]] later, it's still annoying and can easily slip through if you're not careful. If they do, it's not the end of the world - just means a bit of extra work later.
 
 > [!tip] 
 > If you often forget that you're in Live Preview like I do, turning on line numbers can help. Go to settings > Editor > Display > Show line number.
@@ -54,14 +54,14 @@ Assuming you read at least the basics of the [[#Help Vault]], you should be able
 ### 2. Be conservative about plugins
 
 - Plugins attached to the Vault:
-    - Obsidian Git: For Git sync purposes. Features are explored and explained in [[./git|Git]].
+    - Obsidian Git: For Git sync purposes. Features are explored and explained in [[git|Git]].
 - Aside from the [[#^e75c2b|(small) security risk]], plugins have the potential to affect the vault a lot. Try to avoid any that alter notes other than the one you have open, or if they have that option, disable/don't use it.
     - An example of this is the Linter plugin. It's pretty good at making sure notes adhere to a consistent style, and it has support for custom regex rules. But it also has commands for linting entire folders or even the whole vault. Using Linter is fine - I do, and I might add it to the Vault at some point to help keep it consistent. But absolutely do not, under any circumstances, use the mass-linting commands. If we ever do, it will be done properly and because there are a lot of files out of line with the style guidelines.
 - Don't use any plugins that require special syntax that doesn't do anything when you don't have it installed
     - [Dataview](obsidian://show-plugin?id=dataview): I may end up adding it at some point as it has some very useful query functionality (obviously).
     - [Templater](obsidian://show-plugin?id=templater-obsidian): Would be quite useful when we start adding content that's not just info and how-to pages, but anything with Templater syntax on it would not get published (aka no using dynamic commands on regular pages). That's perfectly fine, since templates themselves have no place on the site anyway.
 - Plugins that add convenient little quality-of-life things that don't affect other people's experiences:  
-	- [Homepage](obsidian://show-plugin?id=homepage): Set it to [[./index|Welcome to the Gaylor Vault!]] to get an experience more like the site! Or "random note" if you're feeling adventurous. 
+	- [Homepage](obsidian://show-plugin?id=homepage): Set it to [[index|Welcome to the Gaylor Vault!]] to get an experience more like the site! Or "random note" if you're feeling adventurous. 
 	- [cMenu](obsidian://show-plugin?id=cmenu-plugin) or [Editing Toolbar](obsidian://show-plugin?id=editing-toolbar): Might be useful for people who like formatting their text and are more used to having buttons to click. I think it also has like a "focus" mode? Or maybe it's just generally minimalistic. 
 	- [Advanced Tables](obsidian://show-plugin?id=table-editor-obsidian): a lifesaver when working with markdown tables, especially if you're new to markdown or it's a particularly big one (speaking from experience) 
 	- [Sortable](obsidian://show-plugin?id=obsidian-sortable): Makes tables sortable like Wikipedia! There's no reason not to use this one. 
