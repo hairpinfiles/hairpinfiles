@@ -16,8 +16,6 @@ parents:
   - "[[people/scott-swift|Scott Swift]]"
 siblings:
   - "[[people/austin-swift|Austin Swift]]"
-partner: 
-children:
 ---
 
 **Taylor Alison Swift** (born December 13, 1989) is an American singer-songwriter. Recognized for her songwriting, musical versatility, artistic reinventions, and influence on the music industry, she is a prominent cultural figure of the 21st century.
