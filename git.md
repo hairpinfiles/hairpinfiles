@@ -5,7 +5,7 @@ description: information about working with git, specifically with the Vault & O
 
 Git can feel a little intimidating to learn, but it's not actually that complicated (I know that's what everyone says and it's not always true but I promise you can handle it).
 
-> [!note] This page assumes you've followed the [[obsidian#Quick Start Guide|Quick Start Guide]] for Obsidian - it uses the Obsidian Git plugin installed in that guide (and in the Vault in general) to help explain some Git concepts and uses. If you've figured out Git outside of Obsidian, you probably don't need to read this page. 😉
+> [!note] This page assumes you've followed the [[./obsidian#Quick Start Guide|Quick Start Guide]] for Obsidian - it uses the Obsidian Git plugin installed in that guide (and in the Vault in general) to help explain some Git concepts and uses. If you've figured out Git outside of Obsidian, you probably don't need to read this page. 😉
 
 ## Overview
 
@@ -16,8 +16,10 @@ Rather than storing a whole copy of a file for every change, it only keeps track
 Each change is either an _addition_, _deletion/removal_, or _modification._ This applies on a file level and on an individual line level. When a file is added or removed, all of its lines were also added or removed, respectfully. In a modified file, its lines could be any combination of added, removed, modified, or unchanged. Here, a line being modified is really just an addition on top of a removal. These changes are also called _diffs_. Most programs that provide Git management offer a _diff view_, including the Obsidian Git plugin we have installed on the Vault. Pull up the command palette (CTRL/CMD+P) and search for "source", and it should come up with a "source control view". Click it, and it will open in the right side panel (you can move it anywhere you want, of course).
 
 You should now be presented with this view:
-![[source_control_view.png]]
-There's a lot here - don't worry, we'll go through it all slowly. For right now, you may notice that you don't have anything listed under "changes". That's fine - good, actually. It just means you've been good and not changed anything. 😉 But now you do need to change something: go into Editing Mode (or Live Preview) and change something on this page, anything. (maybe make it something you already read, though) Wait a few seconds, or press the "refresh" button (the circular arrows). "Using Git" (the page you're on right now, in case you forgot) should now appear there under the changes. If you click it, it'll switch to a diff view of the page. Your changes are highlighted in green, red, and/or a yellowish-brown colour. With modified lines, it shows you what part of the line actually changed - that's just a cosmetic thing the plugin does for readability, Git keeps track of whole lines only.
+
+![[./assets/source_control_view.png]]
+
+There's a lot here - don't worry, we'll go through it all slowly. For right now, you may notice that you don't have anything listed under "changes". That's fine - good, actually. It just means you've been good and not changed anything. 😉 But now you do need to change something: go into Editing Mode (or Live Preview) and change something on this page, anything. (maybe make it something you already read, though) Wait a few seconds, or press the "refresh" button (the circular arrows). "Git" (the page you're on right now, in case you forgot) should now appear there under the changes. If you click it, it'll switch to a diff view of the page. Your changes are highlighted in green, red, and/or a yellowish-brown colour. With modified lines, it shows you what part of the line actually changed - that's just a cosmetic thing the plugin does for readability, Git keeps track of whole lines only.
 
 ## Commits
 
@@ -34,7 +36,7 @@ When you create a commit, you'll supply a message to describe the changes in it.
 - Be descriptive, but still short and sweet. This matters less for us than it does for an actual codebase, because we don't have bugs that we have to fix by hunting down when they were introduced. But it still helps with other things, like reviewing [[github#Pull Requests|Pull Requests]].
 - You can have multiple lines - the first line will be used as the "title", and if you put a blank line after it, then a paragraph, it will be used as the "body" or description.
     - Try and keep the title under 50 characters and the body under 72.
-- If you mention an [[github#Issues|Issue]], GitHub will pick up on it and it will be linked. That's not super helpful, but if you preface it with any of the words "close", "closes", "closed", "fixes", or "fixed", the issue will be closed automatically when the commit is eventually [[#Merging|Merged]] in to `master` (the main [[#Branches|Branch]]).
+- If you mention an [[./github#Issues|Issue]], GitHub will pick up on it and it will be linked. That's not super helpful, but if you preface it with any of the words "close", "closes", "closed", "fixes", or "fixed", the issue will be closed automatically when the commit is eventually [[#Merging|Merged]] in to `master` (the main [[#Branches|Branch]]).
 - Use _imperative mood_, like "fix typo", or "add page about Big Sur". Admittedly, I haven't been very good about doing this, but it's convention and aligns with what Git uses for [[#Merging]] and reverts (if you're curious about that, look it up yourself and get comfortable with it somewhere else please).
     - You're also supposed to keep the title as one statement and not end with punctuation. (pretty sure I've already broken the first rule, oops)
 - I don't really care about the first letter being capitalized, but try to keep the rest of the message as readable as possible. Avoid obscure abbreviations and acronyms.
@@ -66,13 +68,14 @@ You can push and pull using the up and down tray arrows, respectfully.
 I think the best way to explain branches is with a diagram. This one is focused heavily on development, but I think it's still helpful. Each dot is one commit, and each lane/colour is one branch. A branch is actually just a pointer to its last commit. Notice the branches [[#Merging]]!
 ![git flow diagram|600](https://i.stack.imgur.com/k5Gdu.png)
 
-> [!note] The plugin we're using doesn't have a "graph view", but you can view it on the [GitHub repository.](https://github.com/gaylor-wiki/gaylor-vault/network) It's not a pretty one - GitHub sort of dropped the ball on this feature specifically, because every other Git provider has a nice graph view, and this is the closest we get with GitHub. If you want a nice fancy one, you're gonna have to find some some other app to do that, unfortunately. The GitHub one includes [[github#Forks|Forks]] though, so that's nice.
+> [!note] 
+> The plugin we're using doesn't have a "graph view", but you can view it on the [GitHub repository.](https://github.com/hairpinfiles/hairpinfiles/network) It's not a pretty one - GitHub sort of dropped the ball on this feature specifically, because every other Git provider has a nice graph view, and this is the closest we get with GitHub. If you want a nice fancy one, you're gonna have to find some some other app to do that, unfortunately. The GitHub one includes [[./github#Forks|Forks]] though, so that's nice.
 
 ## Merging
 
 Merges are probably the most complicated and intimidating thing about Git. Not without good reason - [[#Branches]] are one of the main parts of Git that level it up above others. Think about how complicated it would be, trying to organize work with a bunch of other people all in one stream? It would be chaos. Well, branches are no good if they always stay separate!
 
-> [!info] The Obsidian Git plugin doesn't seem to have functionality to handle merges. Most will likely be dealt with on GitHub any via [[github#Pull Requests|Pull Requests]], but it would still be nice to have _something_. This means that if you need to handle merges locally, you'll need an outside program to help you. Technically, you could just use the command-line and a text editor (Obsidian would be fine for that, I guess, as long as you do it in source mode - the [[#Merge Conflicts|Merge Conflict]] syntax would probably mess with the parsing), but I don't imagine you would find that particularly intuitive. I personally use [GittyUp](https://github.com/Murmele/Gittyup), which is available on Linux, Windows, and Mac. God help you if you need to merge anything on mobile, especially iOS. 🙏
+> [!info] The Obsidian Git plugin doesn't seem to have functionality to handle merges. Most will likely be dealt with on GitHub any via [[./github#Pull Requests|Pull Requests]], but it would still be nice to have _something_. This means that if you need to handle merges locally, you'll need an outside program to help you. Technically, you could just use the command-line and a text editor (Obsidian would be fine for that, I guess, as long as you do it in source mode - the [[#Merge Conflicts|Merge Conflict]] syntax would probably mess with the parsing), but I don't imagine you would find that particularly intuitive. I personally use [GittyUp](https://github.com/Murmele/Gittyup), which is available on Linux, Windows, and Mac. God help you if you need to merge anything on mobile, especially iOS. 🙏
 
 ### Types of merges
 
@@ -110,12 +113,12 @@ here's how it looks:
 Here are lines that are either unchanged from the common
 ancestor, or cleanly resolved because only one side changed,
 or cleanly resolved because both sides changed the same way.
-<<<<<<< yours:sample.txt
+\<<<<<<< yours:sample.txt
 Conflict resolution is hard;
 let's go shopping.
-=======
+\=======
 Git makes conflict resolution easy.
->>>>>>> theirs:sample.txt
+\>>>>>>> theirs:sample.txt
 And here is another line that is cleanly resolved or unmodified.
 ```
 
