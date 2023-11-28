@@ -12,4 +12,4 @@ pronouns:
 parents: 
 siblings:
 ---
-**Elizabeth Huett** (born May 27, 1987) is a musician and actress, most known for being [[data/people/taylor-swift|Taylor Swift]]'s former background singer.
+**Elizabeth Huett** (born May 27, 1987) is a musician and actress, most known for being [[taylor-swift|Taylor Swift]]'s former background singer.
