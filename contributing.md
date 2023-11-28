@@ -6,13 +6,15 @@ author: dykeaura
 
 So you want to lend your hand at making the Vault just a little bit better. Great! ...Where do you start? It depends on how you want to help. If you just want give us suggestions of pages to add or let us know about typos you notice, head over to [[./github#Issues|Issues]]. If you want to do something yourself, read on.
 
-> [!note] This tutorial (and a lot of the others) are pretty technical - not everyone will be able to get comfortable with the whole process (or any of it). If there's anything you need help with, or even if you want to forgo all the technical stuff and just submit stuff to me directly - just let me know. Find me on twitter (@dykeaura), or discord(@oreothepony), put it in your issue, or even send me an email (dykeaura@gmail.com). I want to lower the barrier of entry as much as possible, so let me know what you need and I'll adapt to it as much as I possibly can.
+> [!note] 
+> This tutorial (and a lot of the others) are pretty technical - not everyone will be able to get comfortable with the whole process (or any of it). If there's anything you need help with, or even if you want to forgo all the technical stuff and just submit stuff to me directly - just let me know. Find me on twitter (@dykeaura), or discord(@oreothepony), put it in your issue, or even send me an email (dykeaura@gmail.com). I want to lower the barrier of entry as much as possible, so let me know what you need and I'll adapt to it as much as I possibly can.
 
 ## 1. Decide what you want to work on
 
 Take a look at the [issues tab](https://github.com/hairpinfiles/hairpinfiles/issues) - if you have something in mind already, try searching for it to check if someone else has already thought of it. If there aren't any, create one yourself. If you don't know what you want, scroll through them a bit, see if anything catches your eye. If you want to work on an issue (including your own), assign yourself.
 
-> [!tip] Other than on the side bar editor thing if you have more than just read permissions, you can assign yourself by posting a comment with ".take" somewhere in it. Try it in the issue body, even. **This is specific to the Vault**, implemented via GitHub Actions.
+> [!tip] 
+> Other than on the side bar editor thing if you have more than just read permissions, you can assign yourself by posting a comment with ".take" somewhere in it. Try it in the issue body, even. **This is specific to the Vault**, implemented via GitHub Actions.
 
 ## 2. Make sure you have a fork
 
