@@ -1,7 +1,6 @@
 ---
 title: Welcome to the Hairpin Files!
 ---
-
 This is a **community-run wiki**, written in [[obsidian|Obsidian]]-flavoured markdown and hosted on [[github|GitHub]]. It's also published to [GitHub Pages](https://gaylor-wiki.github.io) using a static site generator (SSG) called [Quartz](https://quartz.jzhao.xyz/).
 
 That may have sounded like a jumble of garbage to you, and I'm sorry. You're probably here because of our, um... _topic of interest_, [[tags/gaylor|#gaylor]].

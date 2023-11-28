@@ -11,8 +11,8 @@ Anyway - there's probably something you're looking for here. If you're new and d
 
 ## Issues
 
-Look at the issues page [here](https://github.com/gaylor-wiki/gaylor-vault/issues).
-Issues are sort of like a big bin of tasks for the whole vault. They represent **things to be done.** Take for example, [#2](https://github.com/gaylor-wiki/gaylor-vault/issues/2) (the one I'm working on right now!)
+Look at the issues page [here](https://github.com/hairpinfiles/hairpinfiles/issues).
+Issues are sort of like a big bin of tasks for the whole vault. They represent **things to be done.** Take for example, [#2](https://github.com/hairpinfiles/hairpinfiles/issues/2) (the one I'm working on right now!)
 
 - It's called "Write a contribution guide"
 - It's assigned to _dykeaura_ (me)
@@ -24,7 +24,7 @@ When we're done with an issue (which usually means we finished the task, or deci
 
 ### Labels
 
-Labels are sort of like categories for the issues. If there's a lot of them (large projects often have thousands open at a time!), it can be difficult to parse through them all just by title and description alone. So labels mainly provide a filtering utility, as well as give us some other information about the issue before we click on it, sort of like seeing tags on an article. All labels have descriptions that should appear when you hover over them, or you could view all of them and their descriptions [here](https://github.com/gaylor-wiki/gaylor-vault/labels).
+Labels are sort of like categories for the issues. If there's a lot of them (large projects often have thousands open at a time!), it can be difficult to parse through them all just by title and description alone. So labels mainly provide a filtering utility, as well as give us some other information about the issue before we click on it, sort of like seeing tags on an article. All labels have descriptions that should appear when you hover over them, or you could view all of them and their descriptions [here](https://github.com/hairpinfiles/hairpinfiles/labels).
 
 ## Pull Requests
 
@@ -38,8 +38,8 @@ A fork is essentially a copy of a repository on a different account or organizat
 
 ### Create a Fork
 
-On the [main repository page,](https://github.com/gaylor-wiki/gaylor-vault) find and click the button that says "fork" as shown below. It should be somewhere in the top right.
 ![[watch-fork-star-github.png]]
+On the [main repository page](https://github.com/hairpinfiles/hairpinfiles), find and click the button that says "fork" as shown below. It should be somewhere in the top right.
 You can then optionally change the name and/or description of the project - I recommend not changing the name if you're wanting to contribute, it helps make it clear that's what you're trying to do. I would also keep the "copy the master branch only" checkbox checked, any others are typically not relevant to you.
 
 It's good practice to create a new [[git#Branches|Branch]] on your fork with a descriptive name for your contribution. If there's already an [[#Issues|Issue]] about your contribution, you can create it from there. It will be linked and shown to anyone viewing the issue. Supposedly it also gets automatically closed when the associated [[#Pull Requests|Pull Request]] gets merged, but in my experience it doesn't pick up the pull request properly for some reason, so I manually link it with "closes #{ID}" at the bottom. (which also helps make it clear to other people)

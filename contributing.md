@@ -9,7 +9,7 @@ So you want to lend your hand at making the Vault just a little bit better. Grea
 
 ## 1. Decide what you want to work on
 
-Take a look at the [issues tab](https://github.com/gaylor-wiki/gaylor-vault/issues) - if you have something in mind already, try searching for it to check if someone else has already thought of it. If there aren't any, create one yourself. If you don't know what you want, scroll through them a bit, see if anything catches your eye. If you want to work on an issue (including your own), assign yourself.
+Take a look at the [issues tab](https://github.com/hairpinfiles/hairpinfiles/issues) - if you have something in mind already, try searching for it to check if someone else has already thought of it. If there aren't any, create one yourself. If you don't know what you want, scroll through them a bit, see if anything catches your eye. If you want to work on an issue (including your own), assign yourself.
 
 > [!tip] Other than on the side bar editor thing if you have more than just read permissions, you can assign yourself by posting a comment with ".take" somewhere in it. Try it in the issue body, even. **This is specific to the Vault**, implemented via GitHub Actions.
 
