@@ -1,5 +1,5 @@
 ---
-title: "#tayliz"
+title: "tayliz"
 description: a theorized relationship between Taylor Swift and Liz Huett
 author: dykeaura
 ---

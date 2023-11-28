@@ -1,5 +1,5 @@
 ---
-title: "#gaylor"
+title: "gaylor"
 description: the theory that Taylor Swift is queer
 author: dykeaura
 ---
@@ -14,9 +14,9 @@ The point is, there are a lot of different people here. Basically the only thing
 
 These are all pages about a potential romantic relationship that Taylor has had. Ready to go down a rabbit hole? 😉
 
-- [[tags/kaylor|#kaylor]]
-- [[tags/swiftgron|#swiftgron]]
-- [[tags/tayliz|#tayliz]]
+- [[tags/kaylor|kaylor]]
+- [[tags/swiftgron|swiftgron]]
+- [[tags/tayliz|tayliz]]
 
 ## Tag Content
 
