@@ -1,5 +1,6 @@
 ---
 title: Welcome to the Hairpin Files!
+author: dykeaura
 ---
 This is a **community-run wiki**, written in [[./obsidian|Obsidian]]-flavoured markdown and hosted on [[./github|GitHub]]. It's also published to [Cloudflare Pages](https://hairpinfiles.pages.dev) using a static site generator (SSG) called [Quartz](https://quartz.jzhao.xyz/).
 

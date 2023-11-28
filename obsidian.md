@@ -1,6 +1,7 @@
 ---
 title: Obsidian
 description: information about using Obsidian, specifically with the Vault
+author: dykeaura
 ---
 
 ## Quick Start Guide

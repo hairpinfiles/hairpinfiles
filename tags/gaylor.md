@@ -1,9 +1,7 @@
 ---
 title: "#gaylor"
 description: the theory that Taylor Swift is queer
-aliases:
-  - "#gaylor"
-tags:
+author: dykeaura
 ---
 
 **Gaylor** is a term that refers to the idea of the [[../people/taylor-swift|Taylor Swift]] being queer, as well as a believer in the theory (plural "gaylors"). The name originates from combining the name "Taylor" and the word "gay", reminiscent of "ship" names. It's the foundation of this wiki, so if you don't believe it or are at least curious, why are you here? (if it's just to be mean, get out)

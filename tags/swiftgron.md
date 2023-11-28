@@ -1,9 +1,7 @@
 ---
 title: "#swiftgron"
 description: a theorized relationship between Taylor Swift and Dianna Agron
-aliases:
-  - "#swiftgron"
-tags: []
+author: dykeaura
 ---
 **Swiftgron** is the name of the "ship" involving [[../people/taylor-swift|Taylor Swift]] and [[../people/dianna-agron|Dianna Agron]]. They were first seen together publicly in September of 2011 (introduced by a mutual friend, possibly [[data/people/ashley-avignone|Ashley Avignone]]), but likely didn't start dating until the following spring. They seemed to be on and off for a while, possibly breaking up a couple of times before they break it off for good. It's unclear at what point they were officially over, or if there was one - Taylor described the song [[../media/songs/style|Style]] as being about “that one person who you feel like might interrupt your wedding and be like ‘don’t do it, cause we’re not over yet’ I think everybody as that one person who kind of floats in and out of their life and the narrative is never truly over.” The only thing that actually seemed to be able to kill swiftgron was [[../tags/kaylor|#kaylor]], at the end of 2013/start of 2014.
 

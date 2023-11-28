@@ -1,6 +1,7 @@
 ---
 title: GitHub
 description: information about navigating and using GitHub
+author: dykeaura
 ---
 GitHub is a place to keep [[./git|Git]] repositories - it's usually used for code, really can be useful with any project made up of mainly text files. Good news for us, that describes our Vault perfectly!
 

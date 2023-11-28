@@ -1,9 +1,7 @@
 ---
 title: "#kaylor"
 description: a theorized relationship between Taylor Swift and Karlie Kloss
-aliases:
-  - "#kaylor"
-tags: []
+author: dykeaura
 ---
 
 **Kaylor** is the name of a "ship" involving [[../people/taylor-swift|Taylor Swift]] and [[../people/karlie-kloss|Karlie Kloss]]. The two became "best friends" in 2013 and were inseparable for several years, before they just... stopped publicly hanging out in 2018-2019. In March of 2014, they went on a trip to Big Sur together, and both posted several pictures taken on the trip to Instagram and Twitter. Later that summer, Taylor moved to New York City, where Karlie allegedly had a room in Taylor's apartment even though her own was only blocks away.
