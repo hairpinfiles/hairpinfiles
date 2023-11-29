@@ -60,7 +60,7 @@ Assuming you read at least the basics of the [[#Help Vault]], you should be able
 - Don't use any plugins that require special syntax that doesn't do anything when you don't have it installed
     - [Dataview](obsidian://show-plugin?id=dataview): I may end up adding it at some point as it has some very useful query functionality (obviously).
     - [Templater](obsidian://show-plugin?id=templater-obsidian): Would be quite useful when we start adding content that's not just info and how-to pages, but anything with Templater syntax on it would not get published (aka no using dynamic commands on regular pages). That's perfectly fine, since templates themselves have no place on the site anyway.
-- Plugins that add convenient little quality-of-life things that don't affect other people's experiences:  
+- Plugins that add convenient little quality-of-life things that don't affect other people's experiences: 
 	- [Homepage](obsidian://show-plugin?id=homepage): Set it to [[index|Welcome to the Gaylor Vault!]] to get an experience more like the site! Or "random note" if you're feeling adventurous. 
 	- [cMenu](obsidian://show-plugin?id=cmenu-plugin) or [Editing Toolbar](obsidian://show-plugin?id=editing-toolbar): Might be useful for people who like formatting their text and are more used to having buttons to click. I think it also has like a "focus" mode? Or maybe it's just generally minimalistic. 
 	- [Advanced Tables](obsidian://show-plugin?id=table-editor-obsidian): a lifesaver when working with markdown tables, especially if you're new to markdown or it's a particularly big one (speaking from experience) 
@@ -71,5 +71,6 @@ Assuming you read at least the basics of the [[#Help Vault]], you should be able
 	- [Reading Time](obsidian://show-plugin?id=obsidian-reading-time): Keeping an eye on the reading time for notes that other people are meant to read is always a good idea 😉 
 	- [Link Favicon](obsidian://show-plugin?id=link-favicon): Icons for links. You might need to reload after enabling it. 
 	- [Surfing](obsidian://show-plugin?id=surfing): Browse websites from inside Obsidian, very helpful when doing research
+
 > [!tip] 
 > Try out some themes! Some of them are really cool. I personally really like the "Dracula Gemini" theme.
