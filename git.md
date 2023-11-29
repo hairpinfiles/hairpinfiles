@@ -1,11 +1,13 @@
 ---
 title: Git
 description: information about working with git, specifically with the Vault & Obsidian
+author: dykeaura
 ---
 
 Git can feel a little intimidating to learn, but it's not actually that complicated (I know that's what everyone says and it's not always true but I promise you can handle it).
 
-> [!note] This page assumes you've followed the [[obsidian#Quick Start Guide|Quick Start Guide]] for Obsidian - it uses the Obsidian Git plugin installed in that guide (and in the Vault in general) to help explain some Git concepts and uses. If you've figured out Git outside of Obsidian, you probably don't need to read this page. 😉
+> [!note] 
+> This page assumes you've followed the [[obsidian#Quick Start Guide|Quick Start Guide]] for Obsidian - it uses the Obsidian Git plugin installed in that guide (and in the Vault in general) to help explain some Git concepts and uses. If you've figured out Git outside of Obsidian, you probably don't need to read this page. 😉
 
 ## Overview
 
@@ -16,8 +18,10 @@ Rather than storing a whole copy of a file for every change, it only keeps track
 Each change is either an _addition_, _deletion/removal_, or _modification._ This applies on a file level and on an individual line level. When a file is added or removed, all of its lines were also added or removed, respectfully. In a modified file, its lines could be any combination of added, removed, modified, or unchanged. Here, a line being modified is really just an addition on top of a removal. These changes are also called _diffs_. Most programs that provide Git management offer a _diff view_, including the Obsidian Git plugin we have installed on the Vault. Pull up the command palette (CTRL/CMD+P) and search for "source", and it should come up with a "source control view". Click it, and it will open in the right side panel (you can move it anywhere you want, of course).
 
 You should now be presented with this view:
-![[source_control_view.png]]
-There's a lot here - don't worry, we'll go through it all slowly. For right now, you may notice that you don't have anything listed under "changes". That's fine - good, actually. It just means you've been good and not changed anything. 😉 But now you do need to change something: go into Editing Mode (or Live Preview) and change something on this page, anything. (maybe make it something you already read, though) Wait a few seconds, or press the "refresh" button (the circular arrows). "Using Git" (the page you're on right now, in case you forgot) should now appear there under the changes. If you click it, it'll switch to a diff view of the page. Your changes are highlighted in green, red, and/or a yellowish-brown colour. With modified lines, it shows you what part of the line actually changed - that's just a cosmetic thing the plugin does for readability, Git keeps track of whole lines only.
+
+![](https://i.imgur.com/YUJu84x.png)
+
+There's a lot here - don't worry, we'll go through it all slowly. For right now, you may notice that you don't have anything listed under "changes". That's fine - good, actually. It just means you've been good and not changed anything. 😉 But now you do need to change something: go into Editing Mode (or Live Preview) and change something on this page, anything. (maybe make it something you already read, though) Wait a few seconds, or press the "refresh" button (the circular arrows). "Git" (the page you're on right now, in case you forgot) should now appear there under the changes. If you click it, it'll switch to a diff view of the page. Your changes are highlighted in green, red, and/or a yellowish-brown colour. With modified lines, it shows you what part of the line actually changed - that's just a cosmetic thing the plugin does for readability, Git keeps track of whole lines only.
 
 ## Commits
 
@@ -66,7 +70,8 @@ You can push and pull using the up and down tray arrows, respectfully.
 I think the best way to explain branches is with a diagram. This one is focused heavily on development, but I think it's still helpful. Each dot is one commit, and each lane/colour is one branch. A branch is actually just a pointer to its last commit. Notice the branches [[#Merging]]!
 ![git flow diagram|600](https://i.stack.imgur.com/k5Gdu.png)
 
-> [!note] The plugin we're using doesn't have a "graph view", but you can view it on the [GitHub repository.](https://github.com/gaylor-wiki/gaylor-vault/network) It's not a pretty one - GitHub sort of dropped the ball on this feature specifically, because every other Git provider has a nice graph view, and this is the closest we get with GitHub. If you want a nice fancy one, you're gonna have to find some some other app to do that, unfortunately. The GitHub one includes [[github#Forks|Forks]] though, so that's nice.
+> [!note] 
+> The plugin we're using doesn't have a "graph view", but you can view it on the [GitHub repository.](https://github.com/hairpinfiles/hairpinfiles/network) It's not a pretty one - GitHub sort of dropped the ball on this feature specifically, because every other Git provider has a nice graph view, and this is the closest we get with GitHub. If you want a nice fancy one, you're gonna have to find some some other app to do that, unfortunately. The GitHub one includes [[github#Forks|Forks]] though, so that's nice.
 
 ## Merging
 
@@ -110,12 +115,12 @@ here's how it looks:
 Here are lines that are either unchanged from the common
 ancestor, or cleanly resolved because only one side changed,
 or cleanly resolved because both sides changed the same way.
-<<<<<<< yours:sample.txt
+ <<<<<<< yours:sample.txt
 Conflict resolution is hard;
 let's go shopping.
-=======
+ =======
 Git makes conflict resolution easy.
->>>>>>> theirs:sample.txt
+ >>>>>>> theirs:sample.txt
 And here is another line that is cleanly resolved or unmodified.
 ```
 

@@ -1,7 +1,9 @@
 ---
 title: Dianna Agron
 description: an American actress and singer
-tags: 
+tags:
+  - person/actress
+  - person/musician/singer
 wikipedia-page: https://en.wikipedia.org/wiki/Dianna_Agron
 wikidata-id: 
 full-name: Dianna Elise Agron
